@@ -1004,6 +1004,10 @@ a.navbar-brand {
 	width:100%;
 }
 
+.test:hover + .test1 {
+	display: block;
+}
+
 .member-info {
 	background-color: #fff;
 	overflow: hidden;
@@ -1097,6 +1101,7 @@ a.navbar-brand {
 }
 
 .become-volunteer {
+	display: none;
 	background-image:url(../images/volunteer-bg.png);
 	background-repeat:no-repeat;
 	background-position:bottom center;
